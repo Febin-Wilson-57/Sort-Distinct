@@ -50,7 +50,7 @@ public class SortDistinctly {
 
 		final ArrayList<Integer> sortedNumbers = new ArrayList<Integer>();
 		n.stream().sorted().distinct().forEach(s -> sortedNumbers.add(s)); 
-		System.out.println("The result of operations :" + sortedNumbers);
+//		System.out.println("The result of operations :" + sortedNumbers);
 		return sortedNumbers;
 
 	}
