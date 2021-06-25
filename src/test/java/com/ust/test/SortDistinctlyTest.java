@@ -13,13 +13,13 @@ public class SortDistinctlyTest {
 	private SortDistinctly obj = new SortDistinctly();
 	String line;
 	ArrayList<Integer> numbers = new ArrayList<Integer>();
-	ArrayList<Integer> n = new ArrayList<Integer>();
+	ArrayList<Integer> z = new ArrayList<Integer>();
 
 	@Test
 	public void inputFile() throws IOException {
 
-		n = obj.fileReading("numberfile.txt");
-		Assertions.assertEquals(n, obj.fileReading("numberfile.txt"));
+		z = obj.fileReading("numberfile.txt");
+		Assertions.assertEquals(z, obj.fileReading("numberfile.txt"));
 
 	}
 

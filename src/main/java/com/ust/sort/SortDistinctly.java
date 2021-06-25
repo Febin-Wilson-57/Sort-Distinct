@@ -11,20 +11,20 @@ public class SortDistinctly {
 		
 
 		
-		String x = "numberfile.txt";
+		String textFile = "numberfile.txt";
 		ArrayList<Integer> num = new ArrayList<Integer>();
-		 num = fileReading(x);
+		 num = fileReading(textFile);
 		ArrayList<Integer> result = sort(num);
 		System.out.println("The result of operations :" + result);
 	}
 
-	public static ArrayList<Integer> fileReading(String x) throws IOException  {
+	public static ArrayList<Integer> fileReading(String textFile) throws IOException  {
 		
 
 		String line;
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 
-		BufferedReader reader = new BufferedReader(new FileReader(x));
+		BufferedReader reader = new BufferedReader(new FileReader(textFile));
 
 
 
